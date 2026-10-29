@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relativity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="new">
+    <span class="canvascontainer">
+        <h1>Slice View</h1>
+        <canvas id="canvas"></canvas>
+    </span>
+    <span class="canvascontainer">
+        <h1>Side View</h1>
+        <canvas id="canvas2"></canvas>
+    </span>
+    <span class="canvascontainer">
+        <h1>Top View</h1>
+        <canvas id="canvas3"></canvas>
+    </span>
+    </div>
+    <div class="container">
+    <label for="T multiplier">
+        Time (value of the cube) 
+        <input type="range" name="T multiplier" id="t-mul" min="0" max="500" step="0.01", value="0"> 
+        <div id="t-value" class="value">0.01</div>
+    </label>
+    </div>
+    <p>Time is continuous. We are using a discrete example because it is easier to show the value of it.</p>
+    <script src="util.js"></script>
+    <script src="object.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

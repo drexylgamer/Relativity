@@ -1,0 +1,40 @@
+body {
+    font-family: monospace;
+}
+.new {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.container {
+    display:flex;
+    width: 1507px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    max-height:fit-content;
+    padding: 20px;
+}
+
+.canvascontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+label {
+    min-width: 300px;
+    display: flex;
+    justify-content: start;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+input {
+    width:500px;
+}
